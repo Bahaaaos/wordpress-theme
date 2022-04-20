@@ -1,0 +1,198 @@
+/*start footer*/
+.footer {
+  /*  position: fixed;
+    left: 0;
+    bottom: 0;*/
+    width: 100%;
+}
+/*end   footer*/
+/*start general rules*/
+body{
+    background-color: #eee;
+}
+/*end   general rules*/
+/*start main posts*/
+.main-post{
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.main-post h3 {
+    margin: 0 0 10px 0;
+    color: #ccc;
+    letter-spacing: -0.3px;
+    font-weight: 600;
+}
+.main-post span{
+    color: #555;
+}
+.main-post i {
+    margin-right: 5px;
+}
+.main-post img {
+    display: block;
+    margin: 5px auto;
+    width: 100%; 
+    height: 200px;
+}
+.main-post .image {
+   
+}
+.main-post .post-content{
+    font-size: 14px;
+    color: #555;
+}
+
+ .pagination a {
+    background-color: #007bff ;
+    color: #fff ;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    transition: all 0.2s ease-in-out;
+ }
+ .pagination a:hover {
+     background-color: #000;
+ }
+ .pagination a.disabled{
+     cursor: not-allowed;
+ }
+ .pagination a i.fa-chevron-right{
+     margin-left: 8px;
+    
+ }
+ .pagination a i.fa-chevron-left{
+    margin-right: 8px;
+   
+}
+/*end main  posts*/
+/* start single post*/
+
+/* end single post*/
+/*start the author*/
+.avatar {
+    margin-bottom:10px;
+}
+.author{
+    margin-top: 15px;
+}
+.author h5 {
+    font-size: 28px;
+    font-weight: 700;
+
+}
+.author p{
+
+}
+.author span.nickname{
+
+}
+/*end  the author*/
+
+/*start comments  */
+ ul.children{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #fff;
+
+}
+.comment-list .comment{
+
+    
+}
+ul.children {
+    padding: 0;
+    margin-left: 0;
+}
+.comments-list>.comment>.comment-body{
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #aaa;
+}
+.comments-list >.comment >ul >.comment >.comment-body{
+
+        background-color: #eee;
+        padding: 10px 30px;
+        border: 1px solid #aaa;
+      
+}
+.comments-list >.comment >ul >.comment >ul .comment-body {
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    padding: 10px 60px;
+}
+.comment-respond label{
+    display: block;
+}
+.comment-respond input[type='text']
+{
+    width: 500px;
+}
+.comment-respond textarea{
+    width: 500px;
+    height: 200px;
+}
+/*end   comments  */
+/* start author */
+.author-page h1 {
+    letter-spacing: -1px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+.author-page .main-info{
+    border: 1px solid #999;
+    margin-bottom: 15px;
+}
+.author-page .main-info ul {
+    margin-top: 10px;
+    
+}
+.author-page .main-info li {
+    font-size: 18px;
+    color: #444;
+    font-weight: 500;
+
+}
+.author-page .main-info p {
+    line-height: 1.2;
+    color: #555;
+
+}
+.statists .stat{
+    background-color: #fff;
+    border: 1px solid #999;
+    font-size: 22px;
+    padding: 10px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+.statists .stat span {
+    display: block;
+    font-size: 50px;
+    font-weight: 600;
+
+
+
+}
+.author-page >h3 {
+    background-color: #aaa;
+    padding: 15px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.author-post {
+    background-color: #fff;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.author-post .imag img{
+    border: none;
+}
+/* end author   */
